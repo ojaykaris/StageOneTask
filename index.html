@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <div class="img-div">
+        <img
+          src="./All img/IMG_8839.JPG"
+          alt="profile-image"
+          class="profile-image"
+          data-testid="slackDisplayImage"
+        />
+      </div>
+      <div class="links">
+        <button>
+          <a href="slackUserName" data-testid="slackUserName">Ojone Agbonika</a>
+        </button>
+
+        <button>
+          <a
+            href="currentDayOfTheWeek"
+            id="day-of-week"
+            data-testid="currentDayOfTheWeek"
+            >Thurday</a
+          >
+        </button>
+
+        <button>
+          <a href="#" id="utc-time" data-testid="currentUTCTime">10:23am</a>
+        </button>
+
+        <button><a href="#" data-testid="myTrack">track-frontend</a></button>
+
+        <button>
+          <a href="https://github.com/ojaykaris" data-testid="githubURL"
+            >https://github.com/ojaykaris</a
+          >
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
