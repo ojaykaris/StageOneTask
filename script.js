@@ -10,12 +10,12 @@ function displayCurrentDayOfWeek() {
   ];
   const today = new Date();
   const dayOfWeek = daysOfWeek[today.getUTCDay()];
-  document.getElementById("day-of-week").textContent = dayOfWeek;
+  document.getElementById("day-of-week").innerText = dayOfWeek;
 }
 window.onload = displayCurrentDayOfWeek;
 
 function displayCurrentUTCTime() {
   const cuurentTimeMillis = new Date().getTime();
-  document.getElementById("utc-time").textContent = cuurentTimeMillis;
+  document.getElementById("utc-time").innerText = cuurentTimeMillis;
 }
-window.onload = displayCurrentUTCTime;
+setTimeout = (displayCurrentUTCTime, 1);
