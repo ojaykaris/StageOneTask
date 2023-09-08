@@ -18,4 +18,4 @@ function displayCurrentUTCTime() {
   const cuurentTimeMillis = new Date().getTime();
   document.getElementById("utc-time").innerText = cuurentTimeMillis;
 }
-setTimeout = (displayCurrentUTCTime, 1);
+setInterval(displayCurrentUTCTime, 1);
